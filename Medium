@@ -1,0 +1,44 @@
+console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.")
+
+console.log("Love is not patronizing and charity isn't about pity, it is about love. \ Charity and love are the same -- with charity you give love, so don't just give \ money but reach out your hand instead.")
+
+let num = '10'
+let numInt = parseInt(num)
+console.log(numInt)
+
+let num1 = '9.8'
+let numFloat = Number(num1)
+console.log(Math.ceil(numFloat))
+
+let a = 'python'
+let b = 'jargon'
+console.log(a.includes('on'))
+console.log(b.includes('on'))
+
+let c = 'I hope this course is not full of jargon'
+console.log(c.includes('jargon'))
+
+let randomNumber = Math.floor(Math.random() * 101)
+console.log(randomNumber)
+
+let randomNumber2 = Math.floor(Math.random() * (101 - 50) + 50)
+console.log(randomNumber2)
+
+let randomNumber3 = Math.floor(Math.random() * 256)
+console.log(randomNumber3)
+
+let String = 'JavaScript'
+let Index = Math.floor(Math.random() * String.length)
+let Char = String[Index]
+console.log(Char)
+
+console.log('1\t1\t1\t1\t1')
+console.log('2\t1\t2\t4\t8')
+console.log('3\t1\t3\t9\t27')
+console.log('4\t1\t4\t16\t64')
+console.log('5\t1\t5\t25\t125')
+
+let sentence = 'You cannot end a sentence with because because because is a conjunction'
+let FirstBecause = sentence.indexOf('because')
+let extractedPhrase = sentence.substr(FirstBecause,'because because because'.length)
+console.log(extractedPhrase)
