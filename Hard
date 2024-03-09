@@ -1,0 +1,9 @@
+let sentence1 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
+let j = /love/gi
+let loveCount = (sentence1.match(j)).length
+console.log(loveCount)
+
+let s3 = 'You cannot end a sentence with because because because is a conjunction'
+let k = /because/gi
+let loveCount1 = (s3.match(k)).length
+console.log(loveCount1)
